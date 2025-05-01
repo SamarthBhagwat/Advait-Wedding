@@ -463,6 +463,107 @@ button.carousel-nav {
   cursor: pointer;
   z-index: 10;
 }
+
+@media (max-width: 768px) {
+      .hero {
+        height: 100vh;
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: clamp(3rem, 12vw, 5rem);
+        line-height: 1.2;
+      }
+
+      .hero h2 {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      .countdown {
+        font-size: 1.5rem;
+        margin-top: 20%;
+        white-space: normal;
+        line-height: 1.5;
+        padding: 20px;
+      }
+
+      #bride-groom,
+      .schedule_div,
+      .rsvp_container,
+      .venue_container {
+        padding: 50px 20px !important;
+        height: auto !important;
+      }
+
+      .slideshow-container {
+        height: 300px;
+        margin-top: 50px;
+      }
+
+      .carousel-img {
+        width: 150px !important;
+      }
+
+      .carousel-img.active {
+        width: 250px !important;
+      }
+
+      .timeline-item {
+        padding-left: 30px;
+      }
+
+      .timeline-icon {
+        left: -15px;
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+      }
+
+      .rsvp-form {
+        width: 100%;
+        padding: 1rem;
+      }
+
+      iframe {
+        height: 300px;
+      }
+
+      .timeline-content h3 {
+        font-size: 1.2rem;
+      }
+
+      .timeline-content p {
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero {
+        padding: 10px;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .countdown {
+        font-size: 1.2rem;
+        margin-top: 15%;
+      }
+
+      .carousel-img {
+        width: 100px !important;
+      }
+
+      .carousel-img.active {
+        width: 200px !important;
+      }
+
+      button.carousel-nav {
+        font-size: 1.5rem;
+      }
+    }
   </style>
 </head>
 <body>
